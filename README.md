@@ -12,16 +12,21 @@
 
 ## Configuring AppGallery Connect
 ### Turn on the Maps API
-![Turn on Map Kit API](/readme/assets/turn_of_map_kit_api.png?raw=true "Turn on Map Kit API")
 I) Inside the `Project settings` option enter to `Manage APIs` section
 
 II) Type `Map` in the search bar to filter the available APIs
 
-III) Verify that the 'Map Kit' switch is on (blue color), if it is off (gray color) it will be necessary to turn it on (clicking it)
+III) Verify that the 'Map Kit' switch ![API Switch](/readme/assets/switch.png?raw=true "API Switch") is on (blue color), if it is off (gray color) it will be necessary to turn it on (clicking it)
+
+![Turn on Map Kit API](/readme/assets/turn_of_map_kit_api.png?raw=true "Turn on Map Kit API")
 
 ### Create Key for Static Map
 I) Search in the side menu (left side) for the `Build` section
+
 II) In this one you will find the option of `Map Kit`
+
 II) Clicking on this will show a sale similar to the one shown at the top
+
 IV) Must click on the "Enable" button
+
 V) The interface will change a bit and a `key` will have been generated for our static map (as shown in the image below)
