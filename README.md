@@ -14,7 +14,7 @@
 ### Turn on the Maps API
 I) Inside the `Project settings` option enter to `Manage APIs` section
 
-II) Type `Map ` in the search bar to filter the available APIs
+II) Type `Map` in the search bar to filter the available APIs
 
 III) Verify that the 'Map Kit' switch is on (blue color), if it is off (gray color) it will be necessary to turn it on (clicking it)
 
