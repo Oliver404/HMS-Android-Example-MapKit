@@ -12,6 +12,7 @@
 
 ## Configuring AppGallery Connect
 ### Turn on the Maps API
+![Employee data](/repository/readme/assets/employee.png?raw=true "Employee Data title")
 I) Inside the `Project settings` option enter to `Manage APIs` section
 
 II) Type `Map` in the search bar to filter the available APIs
