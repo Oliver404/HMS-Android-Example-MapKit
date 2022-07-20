@@ -38,7 +38,9 @@ V) The interface will change a bit and a `key` will have been generated for our 
 ### Download configuration json file
 I) Before downloading the JSON it is recommended to have added the `SHA -256 fingerprint`, the following [guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-sdk-config-agc-0000001061560289#section147011294331) shows how to get and add it to our project
 
-II) Download the file "agconnect-services.json."
+II) Download the file `agconnect-services.json`
+
+![Download agconnect-services.json](/readme/assets/download_json.png?raw=true "Download agconnect-services.json")
 
 ## Configuring Android Project
 ### Configuring Signature
@@ -48,15 +50,25 @@ II) Opening it should locate the `signingConfigs` section, as shown in the image
 
 III) In this section you will have to replace the values of `keyAlias`, `keyPassword`, `storeFile` and `storePassword`
 
-IV) The image, enclosed in a yellow box, shows the `key` used for the original project, as an example, the `storeFile` field should be as follows: ![storeFile](/readme/assets/storeFile.png?raw=true "storeFile")
+IV) The image, enclosed in a yellow box, shows the `key` used for the original project, as an example, the `storeFile` field should be as follows: <img src="/readme/assets/storeFile.png?raw=true" style="height:20px">
+
+![Configuring Signature](/readme/assets/change_signature.png?raw=true "Configuring Signature")
 
 ### Set up AppGallery connection
 I) The file `agconnect-services.json` that was downloaded in previous sections, should be pasted into the folder `app`, as shown in the image below.
 
+![Paste agconnect-services.json](/readme/assets/paste_json.png?raw=true "Paste agconnect-services.json")
+
 ### Configure API KEY
 I) The `KEY API` can be obtained from the `Project Information` section in `Project Settings` of `AppGallery Connect` (example in the following image)
 
+![Copy API KEY](/readme/assets/console_api_key.png?raw=true "Copy API KEY")
+
 II) Once the `API KEY` has been copied, the value of `api_key` must be replaced in the file `strings.xml` that is located in the `values` folder of the Android project. Reference in the following image:
+
+![Change resource API KEY](/readme/assets/resource_api_key.png?raw=true "Change resource API KEY")
 
 ### Run the Application
 I) Once all the configuration is done, you can execute the project, obtaining something similar to the following image:
+
+![Result](/readme/assets/result.png?raw=true "Result")
