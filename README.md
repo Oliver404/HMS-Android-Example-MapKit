@@ -1,14 +1,22 @@
 
 # HMS Map Kit Example
 
-
-
+## Table of Contents
+1. [Prerequisites](#prerequisites)
+2. [Configuring AppGallery Connect](#configuring-appgallery-connect)
+   1. [Turn on the Maps API](#turn-on-the-maps-api)
+   2. [Create Key for Static Map](#create-key-for-static-map)
+   3. [Download configuration json file](#download-configuration-json-file)
+3. [Configuring Android Project](#configuring-android-project)
+   1. [Configuring Signature](#configuring-signature)
+   2. [Set up AppGallery connection](#set-up-appgallery-connection)
+   2. [Configure API KEY](#configure-api-key)
+4. [Run the Application](#run-the-application)
 
 ## Prerequisites
+I) Create a AppGallery project - [Guide](https://developer.huawei.com/consumer/en/doc/distribution/app/agc-help-createproject-0000001100334664)
 
-- Create a AppGallery project - [Guide](https://developer.huawei.com/consumer/en/doc/distribution/app/agc-help-createproject-0000001100334664)
-
-- Create an application in the project with the following packagename `com.oliverbotello.eha.mapkit` - [Guide](https://developer.huawei.com/consumer/en/doc/distribution/app/agc-help-createapp-0000001146718717#section1112105771619)
+II) Create an application in the project with the following packagename `com.oliverbotello.eha.mapkit` - [Guide](https://developer.huawei.com/consumer/en/doc/distribution/app/agc-help-createapp-0000001146718717#section1112105771619)
 
 ## Configuring AppGallery Connect
 ### Turn on the Maps API
@@ -68,7 +76,7 @@ II) Once the `API KEY` has been copied, the value of `api_key` must be replaced 
 
 ![Change resource API KEY](/readme/assets/resource_api_key.png?raw=true "Change resource API KEY")
 
-### Run the Application
+## Run the Application
 I) Once all the configuration is done, you can execute the project, obtaining something similar to the following image:
 
 ![Result](/readme/assets/result.png?raw=true "Result")
