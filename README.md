@@ -25,11 +25,15 @@ I) Search in the side menu (left side) for the `Build` section
 
 II) In this one you will find the option of `Map Kit`
 
-II) Clicking on this will show a sale similar to the one shown at the top
+II) Clicking on this will show a sale similar to the one shown at the bottom
+
+![Map Kit Module](/readme/assets/map_kit_module.png?raw=true "Map Kit Module")
 
 IV) Must click on the "Enable" button
 
 V) The interface will change a bit and a `key` will have been generated for our static map (as shown in the image below)
+
+![Key for Static Map](/readme/assets/key_static_map.png?raw=true "Key for Static Map")
 
 ### Download configuration json file
 I) Before downloading the JSON it is recommended to have added the `SHA -256 fingerprint`, the following [guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-sdk-config-agc-0000001061560289#section147011294331) shows how to get and add it to our project
