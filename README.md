@@ -46,3 +46,13 @@ III) In this section you will have to replace the values of `keyAlias`, `keyPass
 
 IV) The image, enclosed in a yellow box, shows the `key` used for the original project, as an example, the `storeFile` field should be as follows: ![storeFile](/readme/assets/storeFile.png?raw=true "storeFile")
 
+### Set up AppGallery connection
+I) The file `agconnect-services.json` that was downloaded in previous sections, should be pasted into the folder `app`, as shown in the image below.
+
+### Configure API KEY
+I) The `KEY API` can be obtained from the `Project Information` section in `Project Settings` of `AppGallery Connect` (example in the following image)
+
+II) Once the `API KEY` has been copied, the value of `api_key` must be replaced in the file `strings.xml` that is located in the `values` folder of the Android project. Reference in the following image:
+
+### Run the Application
+I) Once all the configuration is done, you can execute the project, obtaining something similar to the following image:
