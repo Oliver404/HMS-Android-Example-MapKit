@@ -12,7 +12,7 @@
 
 ## Configuring AppGallery Connect
 ### Turn on the Maps API
-![Employee data](/repository/readme/assets/turn_of_map_kit_api.png?raw=true "Employee Data title")
+![Turn on Map Kit API](/readme/assets/turn_of_map_kit_api.png?raw=true "Turn on Map Kit API")
 I) Inside the `Project settings` option enter to `Manage APIs` section
 
 II) Type `Map` in the search bar to filter the available APIs
