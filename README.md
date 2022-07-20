@@ -16,7 +16,7 @@ I) Inside the `Project settings` option enter to `Manage APIs` section
 
 II) Type `Map` in the search bar to filter the available APIs
 
-III) Verify that the 'Map Kit' switch ![API Switch](/readme/assets/switch.png?raw=true "API Switch") is on (blue color), if it is off (gray color) it will be necessary to turn it on (clicking it)
+III) Verify that the 'Map Kit' switch <div style="width:30px ; height:20px">![API Switch](/readme/assets/switch.png?raw=true "API Switch")</div> is on (blue color), if it is off (gray color) it will be necessary to turn it on (clicking it)
 
 ![Turn on Map Kit API](/readme/assets/turn_of_map_kit_api.png?raw=true "Turn on Map Kit API")
 
