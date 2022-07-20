@@ -30,3 +30,19 @@ II) Clicking on this will show a sale similar to the one shown at the top
 IV) Must click on the "Enable" button
 
 V) The interface will change a bit and a `key` will have been generated for our static map (as shown in the image below)
+
+### Download configuration json file
+I) Before downloading the JSON it is recommended to have added the `SHA -256 fingerprint`, the following [guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-sdk-config-agc-0000001061560289#section147011294331) shows how to get and add it to our project
+
+II) Download the file "agconnect-services.json."
+
+## Configuring Android Project
+### Configuring Signature
+I) In the `app` folder you will find the file `build.gradle`
+
+II) Opening it should locate the `signingConfigs` section, as shown in the image below
+
+III) In this section you will have to replace the values of `keyAlias`, `keyPassword`, `storeFile` and `storePassword`
+
+IV) The image, enclosed in a yellow box, shows the `key` used for the original project, as an example, the `storeFile` field should be as follows: ![storeFile](/readme/assets/storeFile.png?raw=true "storeFile")
+
