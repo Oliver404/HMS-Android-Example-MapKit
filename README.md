@@ -10,7 +10,7 @@
    2. [Create Key for Static Map](#create-key-for-static-map)
    3. [Download configuration json file](#download-configuration-json-file)
 3. [Configuring Android Project](#configuring-android-project)
-   1. [Configuring Signature](#configuring-signature)
+   1. [Configuring Signature and Package name](#configuring-signature-and-package-name)
    2. [Set up AppGallery connection](#set-up-appgallery-connection)
    2. [Configure API KEY](#configure-api-key)
 4. [Run the Application](#run-the-application)
@@ -18,7 +18,7 @@
 ## Prerequisites
 I) Create a AppGallery project - [Guide](https://developer.huawei.com/consumer/en/doc/distribution/app/agc-help-createproject-0000001100334664)
 
-II) Create an application in the project with the following packagename `com.oliverbotello.eha.mapkit` - [Guide](https://developer.huawei.com/consumer/en/doc/distribution/app/agc-help-createapp-0000001146718717#section1112105771619)
+II) Create an application in the project and save the `packagename` - [Guide](https://developer.huawei.com/consumer/en/doc/distribution/app/agc-help-createapp-0000001146718717#section1112105771619)
 
 ## Configuring AppGallery Connect
 ### Turn on the Maps API
@@ -53,7 +53,7 @@ II) Download the file `agconnect-services.json`
 ![Download agconnect-services.json](/readme/assets/download_json.png?raw=true "Download agconnect-services.json")
 
 ## Configuring Android Project
-### Configuring Signature and Packagename
+### Configuring Signature and Package name
 I) In the `app` folder you will find the file `build.gradle`
 
 II) Opening it should locate the `signingConfigs` section, as shown in the image below
@@ -61,6 +61,10 @@ II) Opening it should locate the `signingConfigs` section, as shown in the image
 III) In this section you will have to replace the values of `keyAlias`, `keyPassword`, `storeFile` and `storePassword`
 
 IV) The image, enclosed in a yellow box, shows the `key` used for the original project, as an example, the `storeFile` field should be as follows: <img src="/readme/assets/storeFile.png?raw=true" style="height:20px">
+
+V) Now locate the `defaultConfig` section, it is above `signingConfigs`
+
+VI) Replace the value of `applicationId` for your `packagename` with which the app is registered to AppGallery
 
 ![Configuring Signature](/readme/assets/change_signature.png?raw=true "Configuring Signature")
 
